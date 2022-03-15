@@ -81,8 +81,3 @@ try {
   mainSlider();
    } catch(err) {
 }
-
-const url = () =>
-{
-return "https://github.com/quant12345/Machine-learning-and-graphics-for-financial-markets-and-beyond";
-}
