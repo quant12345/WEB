@@ -56,26 +56,23 @@ const mainSlider = () =>
 swiper.on('slideChange', function () {
   let name = swiper.realIndex;
   let element = document.getElementsByClassName("text-element")[0];
-  element.innerHTML = (name) + " " + "Index";
   if (name == 0)
-  {
-  element.innerHTML = array_text[0];
-  }
+    {
+     element.innerHTML = array_text[0];
+     }
   if (name == 1)
-  {
+    {
   element.innerHTML = array_text[1];
-  }
+    }
   if (name == 2)
-  {
+    {
   element.innerHTML = array_text[2];
-  }
+    }
   if (name == 3)
-  {
+    {
   element.innerHTML = array_text[3];
-  }
-
+    }
 });
-
 };
 
 
